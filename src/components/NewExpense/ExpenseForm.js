@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import ExpenseDate from "../Expenses/ExpenseDate";
 import './ExpenseForm.css';
 
 const ExpenseForm = () => {
