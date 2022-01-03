@@ -9,7 +9,7 @@ const NewExpense = (props) => {
         setFormState(true);
     }
 
-    const handleFormCancle = () => {
+    const handleFormCancel = () => {
         setFormState(false);
     }
 
@@ -28,7 +28,7 @@ const NewExpense = (props) => {
             {!formState && <button onClick={handleFormState}>Add New Expense</button>}
             {formState && <ExpenseForm 
                     onSubmitAddExpense={handleSubmitAddExpense} 
-                    onCancle={handleFormCancle} 
+                    onCancel={handleFormCancel} 
                 />
             }
         </div>
